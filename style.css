@@ -33,7 +33,7 @@ main{
 .balance{
 
     height: 115px;
-    width: 580px;
+    width: 590px;
     margin: auto;
     background-color: hsl(10, 79%, 65%);
     color: white;
@@ -76,7 +76,7 @@ main{
 .spending{
 
     height: 450px;
-    width: 580px;
+    width: 590px;
     margin: 20px;
     padding: 30px;
     border-radius: 20px;
@@ -116,7 +116,7 @@ main{
 .spending .week .day .value{
 
     height: 35px;
-    width: 60px;
+    width: 100%;
     margin: auto;
     margin-bottom: 10px;
     display: flex;
@@ -124,7 +124,7 @@ main{
     justify-content: center;
     background-color: hsl(25, 47%, 15%);
     color: white;
-    font-size: 0.8em;
+    font-size: 0.75em;
     font-weight: bold;
     border-radius: 5px;
     transition: 0.3s;
@@ -201,5 +201,85 @@ main{
 
     font-weight: bold;
     margin-bottom: 5px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    main{
+
+        margin: auto;
+
+    }
+
+    .balance{
+        width: 80vw;
+    }
+
+    .spending{
+        width: 80vw;
+    }
+
+    .spending .week .day .value{
+
+        font-size: 12px;
+
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+    .spending .week .day .value{
+
+        font-size: 10px;
+
+    }
+
+    .spending .month .atual .atual-value{
+
+        font-size: 36px;
+    
+    }
+
+    .spending .month .atual .atual-text{
+    
+        font-size: 0.8em;
+    
+    }
+
+    .spending .month .last .last-text{
+    
+        font-size: 0.8em;
+    
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    .spending .week .day .value{
+
+        font-size: 8px;
+
+    }
+
+    .spending .month .atual .atual-value{
+
+        font-size: 32px;
+    
+    }
+
+    .spending .month .atual .atual-text{
+    
+        font-size: 0.6em;
+    
+    }
+
+    .spending .month .last .last-text{
+    
+        font-size: 0.6em;
+    
+    }
 
 }
