@@ -9,4 +9,5 @@ Users should be able to:
 - ee hover states for all interactive elements on the page
 - Bonus: Use the JSON data file provided to dynamically size the bars on the chart
 
-
+#Screenshot
+![Captura de Tela (17)](https://user-images.githubusercontent.com/105220100/182728065-35bed48b-ba62-43c8-b33e-cf3f3e44feac.png)
