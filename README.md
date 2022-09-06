@@ -1,4 +1,4 @@
-# Frontend Mentor - Expenses chart component solution
+# Frontend Mentor - <a href="https://renancosta2.github.io/expenses-chart-component/">Expenses chart component solution</a>
 
 The challenge
 Users should be able to:
@@ -10,6 +10,4 @@ Users should be able to:
 - Bonus: Use the JSON data file provided to dynamically size the bars on the chart
 
 # Screenshot
-![Captura de Tela (17)](https://user-images.githubusercontent.com/105220100/182728065-35bed48b-ba62-43c8-b33e-cf3f3e44feac.png)
-
-Link: https://renancosta2.github.io/expenses-chart-component/
+<a href="https://renancosta2.github.io/expenses-chart-component/">![Captura de Tela (17)](https://user-images.githubusercontent.com/105220100/182728065-35bed48b-ba62-43c8-b33e-cf3f3e44feac.png)</a>
